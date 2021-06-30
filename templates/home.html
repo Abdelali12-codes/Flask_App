@@ -1,0 +1,18 @@
+<html>  
+    <head>  
+        <title>Message</title>  
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">  
+    </head>  
+   <body>  
+      <form action = "http://localhost:5000/login" method = "post">  
+         <table>  
+        <!-- <tr><td>Name</td>  
+        <td><input type ="text" name ="uname"></td></tr>  
+        <tr><td>Password</td>  
+        <td><input type ="password" name ="pass"></td></tr>  
+        <tr><td><input type = "submit"></td></tr>   -->
+        <h1>Hello {{name}}</h1>
+    </table>  
+      </form>  
+   </body>  
+</html>
